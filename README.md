@@ -85,7 +85,7 @@ The layout ensures a clear overview and interactive exploration of accident tren
 A preliminary review of the three datasets was conducted using Microsoft Excel to understand their structure, detect anomalies, and prepare for downstream cleaning in SQL Server.
 
 *Accidents Dataset (`dft-road-casualty-statistics-collision-2023.csv`)*
-- **Rows:** 104,258 | **Columns:** 37
+**Rows:** 104,258 | **Columns:** 37 |
 - **Primary Key:** `accident_index`
 - **Key Fields for Analysis:** `accident_severity`, `date`, `time`, `weather_conditions`, `light_conditions`, `road_surface_conditions`, `latitude`, `longitude`
 - **Anomalies Detected:**
@@ -98,7 +98,7 @@ A preliminary review of the three datasets was conducted using Microsoft Excel t
   - Decode all categorical codes using official lookup values
 
 *Vehicles Dataset (`dft-road-casualty-statistics-vehicle-2023.csv`)*
-- **Rows:** 189,815 | **Columns:** 34
+**Rows:** 189,815 | **Columns:** 34 |
 - **Primary Key:** `accident_index` + `vehicle_reference`
 - **Key Fields for Analysis:** `vehicle_type`, `vehicle_manoeuvre`, `age_of_driver`, `sex_of_driver`, `journey_purpose_of_driver`
 - **Anomalies Detected:**
@@ -110,7 +110,7 @@ A preliminary review of the three datasets was conducted using Microsoft Excel t
   - Decode categorical variables using official mappings
 
 *Casualties Dataset (`dft-road-casualty-statistics-casualty-2023.csv`)*
-- **Rows:** 132,977 | **Columns:** 21
+**Rows:** 132,977 | **Columns:** 21 |
 - **Primary Key:** `accident_index` + `casualty_reference`
 - **Key Fields for Analysis:** `age_of_casualty`, `sex_of_casualty`, `casualty_severity`, `casualty_type`, `casualty_class`
 - **Anomalies Detected:**
