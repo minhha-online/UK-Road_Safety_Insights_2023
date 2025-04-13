@@ -4,7 +4,7 @@ This project seeks to derive actionable insights from the UK Road Safety Acciden
 
 The primary objective is to identify critical patterns in road traffic incidents with a focus on spatial distribution, temporal trends, environmental conditions, demographic vulnerability, and vehicle involvement. These insights are intended to assist public authorities, urban planners, and policy stakeholders in optimizing intervention strategies and resource allocation.
 
-## Key Performance Indicators (KPIs) and Dependent Variables
+## Key Performance Indicators (KPIs) 
 
 | KPI / Variable | Description |
 |----------------|-------------|
